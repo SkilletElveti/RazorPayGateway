@@ -19,7 +19,7 @@ class ViewController: UIViewController ,RazorpayPaymentCompletionProtocol {
     var razorpay: Razorpay!
     
     override func viewWillAppear(_ animated: Bool) {
-        razorpay = Razorpay.initWithKey("rzp_test_1ExKuuBIxKetWa", andDelegate: self)
+        razorpay = Razorpay.initWithKey("YOUR_API_KEY", andDelegate: self)
         orderID()
         
     }
